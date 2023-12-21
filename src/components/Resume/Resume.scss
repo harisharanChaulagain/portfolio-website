@@ -1,0 +1,24 @@
+@import "../../css-config/mixins.scss";
+.resume-main {
+  color: #ffffff;
+  background: #363d42;
+  padding: 10px 20px;
+  .main {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    button {
+      color: #ffffff;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      gap: 10px;
+      @include md {
+        height: 40px;
+        width: 200px;
+      }
+    }
+  }
+}

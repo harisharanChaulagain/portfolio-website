@@ -1,3 +1,4 @@
+import { Element } from "react-scroll";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -10,11 +11,21 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Home />
-      <AboutMe />
-      <Projects />
-      <Resume />
-      <Contact />
+      <Element name="home">
+        <Home />
+      </Element>
+      <Element name="about">
+        <AboutMe />
+      </Element>
+      <Element name="projects">
+        <Projects />
+      </Element>
+      <Element name="resume">
+        <Resume />
+      </Element>
+      <Element name="contact">
+        <Contact />
+      </Element>
       <Footer />
     </div>
   );

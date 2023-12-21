@@ -1,5 +1,5 @@
 import "./Home.scss";
-import image from "../../assets/hari1.jpg";
+import image from "../../assets/hari1.png";
 
 const Home = () => {
   return (

@@ -23,7 +23,7 @@ const Projects = () => {
   return (
     <div className="project-main">
       <div>
-        <h2>Projects</h2>
+        <h1>Projects</h1>
         {projectsList.map((project, index) => (
           <div key={index}>
             <div className="title">

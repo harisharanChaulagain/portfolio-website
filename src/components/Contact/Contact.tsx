@@ -7,7 +7,7 @@ import githubIcon from "../../assets/github-icon.png";
 const Contact = () => {
   return (
     <div className="contact-main">
-      <h2>Contacts Details</h2>
+      <h1>Contacts Details</h1>
       <div className="items">
         <div className="social-icon">
           <img src={phoneIcon} alt="img" /> : (+977) 9863441309

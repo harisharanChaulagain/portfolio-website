@@ -2,6 +2,14 @@ import "./Projects.scss";
 
 const projectsList = [
   {
+    title: "Portfolio Website",
+    duration: "December 2023 - present",
+    description:
+      "Designed and developed a personal portfolio website using React, showcasing my skills, projects, and professional journey. The website offers an intuitive user experience, featuring responsive design and modern UI elements.",
+    technology: " React ",
+    link: " https://github.com/harisharanChaulagain/portfolio-website",
+  },
+  {
     title: "E-Commerce Website",
     duration: "November 2023 – present",
     description:

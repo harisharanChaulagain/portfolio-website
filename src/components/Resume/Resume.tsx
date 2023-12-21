@@ -16,6 +16,7 @@ const Resume = () => {
   };
   return (
     <div className="resume-main">
+      <h2>Resume/CV</h2>
       <div className="main">
         <button style={{ background: "#2196f3" }} onClick={handleViewCV}>
           <FaEye />

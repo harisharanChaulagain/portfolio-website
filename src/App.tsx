@@ -10,10 +10,10 @@ import Resume from "./components/Resume/Resume";
 const App = () => {
   return (
     <div>
-      <Header />
       <Element name="home">
-        <Home />
+        <Header />
       </Element>
+      <Home />
       <Element name="about">
         <AboutMe />
       </Element>

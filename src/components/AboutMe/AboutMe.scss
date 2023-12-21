@@ -1,0 +1,26 @@
+@import "../../css-config/mixins.scss";
+.about-main {
+  padding: 10px 20px;
+  color: #ffffff;
+  background: #363d42;
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    @include md {
+      flex-direction: row;
+      gap: 20px;
+    }
+    .first {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .aboutme-image {
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

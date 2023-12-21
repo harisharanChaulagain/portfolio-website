@@ -1,0 +1,15 @@
+@import "../../css-config/mixins.scss";
+
+.project-main {
+  color: #ffffff;
+  background: #636b72;
+  padding: 10px 20px;
+  .title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+  }
+  hr {
+    margin-bottom: 20px;
+  }
+}

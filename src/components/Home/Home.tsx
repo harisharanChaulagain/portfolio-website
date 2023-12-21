@@ -1,5 +1,5 @@
 import "./Home.scss";
-import image from "../../assets/img1.jpg";
+import image from "../../assets/hari1.jpg";
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
         <h2>I'm a Web Developer!!!</h2>
       </div>
       <div className="second">
-        <div className="img-container">
+        <div>
           <img src={image} alt="image" />
         </div>
       </div>

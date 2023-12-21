@@ -8,7 +8,22 @@
     display: flex;
     justify-content: space-between;
     font-weight: 700;
+    .duration {
+      color: #4c2a85;
+    }
   }
+  a {
+    color: #138de4;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #4c2a85;
+  }
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
+
   hr {
     margin-bottom: 20px;
   }

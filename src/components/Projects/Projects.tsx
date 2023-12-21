@@ -1,4 +1,5 @@
 import "./Projects.scss";
+import { GoDotFill } from "react-icons/go";
 
 const projectsList = [
   {
@@ -35,16 +36,19 @@ const Projects = () => {
         {projectsList.map((project, index) => (
           <div key={index}>
             <div className="title">
-              <span>{project.title}</span>
-              <span>[{project.duration}]</span>
+              <span className="project-title">
+                <GoDotFill />
+                {project.title}
+              </span>
+              <span className="duration">[{project.duration}]</span>
             </div>
             <div>{project.description}</div>
             <div>
-              <span>Technology Used :</span>
+              <span className="project-title">Technology Used :</span>
               <span>{project.technology}</span>
             </div>
             <div>
-              <span>Link :</span>
+              <span className="project-title">Link :</span>
               <a href={project.link} target="_blank" rel="noopener noreferrer">
                 {project.link}
               </a>
